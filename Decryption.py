@@ -10,4 +10,5 @@ Decrypted_data = decryptor.decrypt(z_data)
 with open('mainfile.txt','wb') as z:
     z.write(Decrypted_data)
 print('file is Decrypted')
-print(f"printing itsc content","mainfile.txt")
+print("printing it's content")
+
